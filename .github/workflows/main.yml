@@ -4,8 +4,7 @@ on:
   push:
     branches:
       - main
-  schedule:
-    - cron: '*/15 0-23 * * 1-6'  
+
 
 env:
   FILE_NAME: hello-server
